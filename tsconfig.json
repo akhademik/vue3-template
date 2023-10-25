@@ -1,0 +1,20 @@
+{
+	"include": ["src/**/*", "src/**/*.vue"],
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"$views/*": ["src/views/*"],
+			"$components/*": ["src/components/*"],
+			"$modules/*": ["src/modules/*"]
+		}
+	},
+	"files": [],
+	"references": [
+		{
+			"path": "./tsconfig.node.json"
+		},
+		{
+			"path": "./tsconfig.app.json"
+		}
+	]
+}
